@@ -4,7 +4,7 @@ from openai import OpenAI
 # -----------------------------
 # 1️⃣ App Configuration
 # -----------------------------
-st.set_page_config(page_title = "Health Assistant Chatbot", page_icon = "💬")
+st.set_page_config(page_title = "💬 Health Assistant", page_icon = "💬")
 # Page title
 st.markdown(
     """
@@ -12,6 +12,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
 # -----------------------------
 # 2️⃣ Load API Key from Secrets
 # -----------------------------
@@ -51,10 +52,12 @@ with st.sidebar:
     st.header("⚙️ Settings")
     st.markdown(
         """
-        This chatbot provides general health information and lifestyle guidance.  
+        This health assistant provides general health information and lifestyle guidance.
+        
+        ⚠️ **Disclaimer:** This is NOT medical advice. Always consult your healthcare provider 
+        for personalized medical decisions.
         """
     )
-    st.warning()
 
 # Model selection and parameters
     model = st.selectbox(
