@@ -53,11 +53,9 @@ with st.sidebar:
     st.markdown(
         """
         This health assistant provides general health information and lifestyle guidance.
-        
-        ⚠️ **Disclaimer:** This is NOT medical advice. Always consult your healthcare provider 
-        for personalized medical decisions.
         """
     )
+    st.warning("⚠️ **Disclaimer:** This is NOT medical advice. Always consult your healthcare provider for personalized medical decisions.")
 
 # Model selection and parameters
     model = st.selectbox(
