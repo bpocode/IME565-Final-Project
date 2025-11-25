@@ -5,12 +5,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title = "Predictions", 
-                   page_icon = "❤️")
+                   page_icon = "🎯")
 
 # Page title
 st.markdown(
     """
-    <h2 style="text-align: center; color: #4a4a4a;">Heart Disease Prediction ❤️</h2>
+    <h2 style="text-align: center; color: #4a4a4a;">Heart Disease Prediction 🎯</h2>
     """,
     unsafe_allow_html=True,
 )
@@ -100,3 +100,22 @@ if st.button('Predict'):
 #        'Sex_M', 'ChestPainType_ATA', 'ChestPainType_NAP', 'ChestPainType_TA',
 #        'RestingECG_Normal', 'RestingECG_ST', 'ExerciseAngina_Y',
 #        'ST_Slope_Flat', 'ST_Slope_Up'],
+
+with st.sidebar:
+    st.header("⚙️ Guide")
+    
+    st.markdown("""
+    **Steps:**
+    1. Fill form
+    2. Choose model
+    3. Get Yes/No prediction
+    
+    **What You Get:**
+    - Heart disease prediction
+    - Health recommendations
+    """)
+    
+    st.divider()
+    
+    st.warning("⚠️ Not medical advice")
+    st.info("💬 Chat with Health Assistant after!")

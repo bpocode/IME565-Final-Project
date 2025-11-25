@@ -14,8 +14,49 @@ st.markdown(
 )
 
 # Insert an image
-st.image('heart.png', width = 'stretch', 
-         caption = "Predict whether or not you have heart failure")
+#AI used to center image
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("heart.gif", caption="Predict whether or not you have heart failure")
+
+# Caption
+st.markdown(
+    """
+    <h2 style = "text-align: center; color: #69503c;">Utilize our advanced Machine Learning application to predict heart failure risk.</h2>
+    """,
+    unsafe_allow_html = True,
+)
+
+st.write("---")
+
+with st.expander("What can you do with this app?"):
+    st.markdown("""
+    📝 **Fill Out a Health Assessment:** Provide a form where users can enter their own health metrics.
+
+    ⭐ **Predict Risk of Heart Failure:** Use machine learning models to classify heart failure prediction.
+        
+    💬 **Chat With a Health Assistant:** Receive personalized, data-driven lifestyle recommendations.
+    
+    🔧 **Interactive Features:** Explore data with fully interactive charts and summaries!
+    """)
+
+st.sidebar.markdown("### 🔍 Navigate the App")
+
+st.sidebar.markdown("""
+- **Home:** Learn what the Heart Failure Predictor does and how to use it.
+
+- **Understanding Models:** Explore the machine learning models used for risk prediction.
+
+- **User Input:** Fill out your health information for personalized analysis.
+
+- **Predictions:** Generate heart failure risk predictions based on your data.
+
+- **Health Assistant Chatbot:** Get personalized guidance based on your inputs.
+
+- **Model Insights:** View performance metrics, feature importance, and medical interpretations.
+""")
+
+st.sidebar.info("Select a page above to begin your heart failure risk analysis!")
 
 
 # Initialize session state keys
