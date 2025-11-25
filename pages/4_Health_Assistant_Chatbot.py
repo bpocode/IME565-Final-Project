@@ -54,7 +54,7 @@ with st.sidebar:
         This chatbot provides general health information and lifestyle guidance.  
         """
     )
-    st.warning("⚠️ **Disclaimer:** This is NOT medical advice. Always consult your healthcare provider for personalized medical decisions.")
+    st.warning()
 
 # Model selection and parameters
     model = st.selectbox(
