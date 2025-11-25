@@ -89,19 +89,29 @@ selected_model = model_dict[model]
 if st.button('Predict'):
     prediction = selected_model.predict([[age,resting_bp,cholesterol,fasting_bs,max_hr,oldpeak,sex_m,ChestPainType_ATA,
                    ChestPainType_NAP,ChestPainType_TA,RestingECG_Normal,RestingECG_ST,ExerciseAngina_Y,ST_Slope_Flat,ST_Slope_Up]])
+    prediction_prob = selected_model.predict_proba([[age,resting_bp,cholesterol,fasting_bs,max_hr,oldpeak,sex_m,ChestPainType_ATA,
+                   ChestPainType_NAP,ChestPainType_TA,RestingECG_Normal,RestingECG_ST,ExerciseAngina_Y,ST_Slope_Flat,ST_Slope_Up]])
 
     if prediction == 0:
         st.success('You do not have heart failure!')
         st.balloons()
 
     if prediction == 1:
-        st.warning('You may be at risk for heart failure. Please see next page for recommendations.')
+        st.warning('You may be at risk for heart failure. Please seek general advice from chatbot and professional advice from healthcare providers.')
+    # Convert probabilities to percentages
+    no_hf = prediction_prob[0][0] * 100
+    hf = prediction_prob[0][1] * 100
+
+    # Display metrics in columns for a side-by-side view
+    col1, col2 = st.columns(2)
+
+    col1.metric(label="No Heart Failure", value=f"{no_hf:.0f}%")
+    col2.metric(label="Heart Failure", value=f"{hf:.0f}%")
+
 # ['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak',
 #        'Sex_M', 'ChestPainType_ATA', 'ChestPainType_NAP', 'ChestPainType_TA',
 #        'RestingECG_Normal', 'RestingECG_ST', 'ExerciseAngina_Y',
 #        'ST_Slope_Flat', 'ST_Slope_Up'],
-import streamlit as st
-import pandas as pd
 
 st.header("**Patient Demographic Analysis**")
 
@@ -244,7 +254,7 @@ if st.session_state.get('form_submitted', False):
 else:
     st.info("ℹ️ Please fill out the health assessment form and click **Submit** to see your demographic comparison.")
 
-    
+
 with st.sidebar:
     st.header("⚙️ Guide")
     
