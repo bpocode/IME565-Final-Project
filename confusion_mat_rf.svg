@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-11-25T14:52:37.066571</dc:date>
+    <dc:date>2025-11-28T11:26:42.249086</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -42,7 +42,7 @@ z
      <g id="line2d_1">
       <path d="M 113.541156 315.919375 
 L 113.541156 21.935625 
-" clip-path="url(#p4b93334e47)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+" clip-path="url(#p48294bdf84)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="line2d_2"/>
      <g id="text_1">
@@ -194,7 +194,7 @@ z
      <g id="line2d_3">
       <path d="M 265.813156 315.919375 
 L 265.813156 21.935625 
-" clip-path="url(#p4b93334e47)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+" clip-path="url(#p48294bdf84)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_2">
@@ -453,7 +453,7 @@ z
      <g id="line2d_5">
       <path d="M 37.405156 95.431562 
 L 341.949156 95.431562 
-" clip-path="url(#p4b93334e47)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+" clip-path="url(#p48294bdf84)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_4">
@@ -472,7 +472,7 @@ L 341.949156 95.431562
      <g id="line2d_7">
       <path d="M 37.405156 242.423437 
 L 341.949156 242.423437 
-" clip-path="url(#p4b93334e47)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+" clip-path="url(#p48294bdf84)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_5">
@@ -545,25 +545,25 @@ L 189.677156 21.935625
 L 189.677156 168.9275 
 L 37.405156 168.9275 
 L 37.405156 21.935625 
-" clip-path="url(#p4b93334e47)" style="fill: #2575b7"/>
+" clip-path="url(#p48294bdf84)" style="fill: #2575b7"/>
     <path d="M 189.677156 21.935625 
 L 341.949156 21.935625 
 L 341.949156 168.9275 
 L 189.677156 168.9275 
 L 189.677156 21.935625 
-" clip-path="url(#p4b93334e47)" style="fill: #f1f7fd"/>
+" clip-path="url(#p48294bdf84)" style="fill: #f1f7fd"/>
     <path d="M 37.405156 168.9275 
 L 189.677156 168.9275 
 L 189.677156 315.919375 
 L 37.405156 315.919375 
 L 37.405156 168.9275 
-" clip-path="url(#p4b93334e47)" style="fill: #f7fbff"/>
+" clip-path="url(#p48294bdf84)" style="fill: #f7fbff"/>
     <path d="M 189.677156 168.9275 
 L 341.949156 168.9275 
 L 341.949156 315.919375 
 L 189.677156 315.919375 
 L 189.677156 168.9275 
-" clip-path="url(#p4b93334e47)" style="fill: #08306b"/>
+" clip-path="url(#p48294bdf84)" style="fill: #08306b"/>
    </g>
    <g id="text_7">
     <!-- 71 -->
@@ -1154,7 +1154,7 @@ z
     </g>
    </g>
    <image xlink:href="data:image/png;base64,
-iVBORw0KGgoAAAANSUhEUgAAABUAAAGYCAYAAACtTqkkAAAB4klEQVR4nO2cwY3kQAwDdQvnn+49FrA3CdajQDIAQQVJVLc943//f7/vwvpJB7y7e/J53j3f5aMy+ECi9wAxRdWHMgUqhVSfwieCivCB6mvwPUHb1wmEn5dnm85Q8mLWSXf1Zyh5MfhXXX2RoZjwdzsJyzNRonWyxx1xzVDy2jqZoYTlMZTy6s9Q8to6IYKK8JsNZeukufozlLy2TvJiMn2BnhLhl/vpK5qo8tdxAH539U2GoinUuzFNS9SnRPVF+KZjj6VQLxHUgw9dIy347dUXLT4gKHE3FeF7+pQYU89Emfq0G1904d3xPB7UU33PRJUXiljRInxPpu3PT7f301qh8qKOPXlt7wNBTWNavU48mTKFiodU4XueSjI/btHgex4gth97kKAa/PJ10m0o5dUXGYrIT5kfYTXj74CWV72fdr+P8hgK0VIifI+hzE+JoPGYInzPRKnw16dhrU/zGj4StBnfYyjDj8cU4XsyLS+UCP8FrtEe51eNKRK0GV9lKJZCMd9C0uB3ZyrCX5/Gg3oyNX21qXtMuzNdn676YXnwPZm2469P41qfrk/D8mT6nAb/vvwfb8rxqUyRPvXgr0/DWp/mNfzmiarH17yMNU3U+jQftBnf4/zDH35YHnyPofwB4hQb7CbaKJ0AAAAASUVORK5CYII=" id="imaged810639be1" transform="scale(1 -1) translate(0 -293.76)" x="360.72" y="-21.6" width="15.12" height="293.76"/>
+iVBORw0KGgoAAAANSUhEUgAAABUAAAGYCAYAAACtTqkkAAAB4klEQVR4nO2cwY3kQAwDdQvnn+49FrA3CdajQDIAQQVJVLc943//f7/vwvpJB7y7e/J53j3f5aMy+ECi9wAxRdWHMgUqhVSfwieCivCB6mvwPUHb1wmEn5dnm85Q8mLWSXf1Zyh5MfhXXX2RoZjwdzsJyzNRonWyxx1xzVDy2jqZoYTlMZTy6s9Q8to6IYKK8JsNZeukufozlLy2TvJiMn2BnhLhl/vpK5qo8tdxAH539U2GoinUuzFNS9SnRPVF+KZjj6VQLxHUgw9dIy347dUXLT4gKHE3FeF7+pQYU89Emfq0G1904d3xPB7UU33PRJUXiljRInxPpu3PT7f301qh8qKOPXlt7wNBTWNavU48mTKFiodU4XueSjI/btHgex4gth97kKAa/PJ10m0o5dUXGYrIT5kfYTXj74CWV72fdr+P8hgK0VIifI+hzE+JoPGYInzPRKnw16dhrU/zGj4StBnfYyjDj8cU4XsyLS+UCP8FrtEe51eNKRK0GV9lKJZCMd9C0uB3ZyrCX5/Gg3oyNX21qXtMuzNdn676YXnwPZm2469P41qfrk/D8mT6nAb/vvwfb8rxqUyRPvXgr0/DWp/mNfzmiarH17yMNU3U+jQftBnf4/zDH35YHnyPofwB4hQb7CbaKJ0AAAAASUVORK5CYII=" id="image3e76452c6e" transform="scale(1 -1) translate(0 -293.76)" x="360.72" y="-21.6" width="15.12" height="293.76"/>
    <g id="LineCollection_1"/>
    <g id="patch_4">
     <path d="M 360.983156 315.919375 
@@ -1170,7 +1170,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p4b93334e47">
+  <clipPath id="p48294bdf84">
    <rect x="37.405156" y="21.935625" width="304.544" height="293.98375"/>
   </clipPath>
  </defs>
