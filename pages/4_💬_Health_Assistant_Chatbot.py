@@ -17,12 +17,14 @@ st.markdown(
 # 2️⃣ Load API Key from Secrets
 # -----------------------------
 # The key must be stored in .streamlit/secrets.toml
-if "OPENAI_API_KEY" not in st.secrets:
-    st.error("❌ API key not found. Please add it to .streamlit/secrets.toml")
+key = st.text_input("Enter your OpenAI API Key:", type="password")
+
+if not key:   # empty string → user didn't enter anything
+    st.warning("⚠️ Please enter your API key to continue.")
     st.stop()
 
 # Initialize the OpenAI client with your secret key
-client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key = key)
 
 # -----------------------------
 # 3️⃣ System Prompt (Healthcare Professional Role)
